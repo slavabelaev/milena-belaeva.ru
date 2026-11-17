@@ -113,7 +113,7 @@
         <span class="sec-head__idx">01</span>
         <h2 id="portfolio-title" data-i18n="sec.portfolio">Портфолио</h2>
       </header>
-      <!-- Новое фото: скопируйте <button class="shot"> в эту сетку. Подробности в README. -->
+      <!-- Студия: два в ряд. Новые студийные кадры — в portfolio__grid. -->
       <div class="portfolio__grid">
         <button class="shot js-photo" type="button"
           data-full="images/portrait-standing-2000.webp"
@@ -134,6 +134,63 @@
           </picture>
         </button>
         <button class="shot js-photo" type="button"
+          data-full="images/black-side-2000.webp"
+          data-fallback="images/black-side-2000.jpg"
+          data-alt-ru="Милена Беляева в чёрном, профиль в полный рост"
+          data-alt-en="Milena Belyaeva in black, full-length side view">
+          <picture>
+            <source type="image/webp"
+              srcset="images/black-side-800.webp 800w, images/black-side-1400.webp 1400w, images/black-side-2000.webp 2000w"
+              sizes="(min-width: 800px) 50vw, 100vw">
+            <img
+              src="images/black-side-1400.jpg"
+              srcset="images/black-side-800.jpg 800w, images/black-side-1400.jpg 1400w, images/black-side-2000.jpg 2000w"
+              sizes="(min-width: 800px) 50vw, 100vw"
+              width="4160" height="6240"
+              alt="Милена Беляева в чёрном, профиль в полный рост"
+              loading="lazy" decoding="async">
+          </picture>
+        </button>
+        <button class="shot js-photo" type="button"
+          data-full="images/black-stool-2000.webp"
+          data-fallback="images/black-stool-2000.jpg"
+          data-alt-ru="Милена Беляева в чёрном, сидя на барном стуле"
+          data-alt-en="Milena Belyaeva in black, seated on a bar stool">
+          <picture>
+            <source type="image/webp"
+              srcset="images/black-stool-800.webp 800w, images/black-stool-1400.webp 1400w, images/black-stool-2000.webp 2000w"
+              sizes="(min-width: 800px) 50vw, 100vw">
+            <img
+              src="images/black-stool-1400.jpg"
+              srcset="images/black-stool-800.jpg 800w, images/black-stool-1400.jpg 1400w, images/black-stool-2000.jpg 2000w"
+              sizes="(min-width: 800px) 50vw, 100vw"
+              width="4160" height="6240"
+              alt="Милена Беляева в чёрном, сидя на барном стуле"
+              loading="lazy" decoding="async">
+          </picture>
+        </button>
+        <button class="shot js-photo" type="button"
+          data-full="images/black-chair-2000.webp"
+          data-fallback="images/black-chair-2000.jpg"
+          data-alt-ru="Милена Беляева в чёрном, портрет на стуле"
+          data-alt-en="Milena Belyaeva in black, portrait on a chair">
+          <picture>
+            <source type="image/webp"
+              srcset="images/black-chair-800.webp 800w, images/black-chair-1400.webp 1400w, images/black-chair-2000.webp 2000w"
+              sizes="(min-width: 800px) 50vw, 100vw">
+            <img
+              src="images/black-chair-1400.jpg"
+              srcset="images/black-chair-800.jpg 800w, images/black-chair-1400.jpg 1400w, images/black-chair-2000.jpg 2000w"
+              sizes="(min-width: 800px) 50vw, 100vw"
+              width="4160" height="6240"
+              alt="Милена Беляева в чёрном, портрет на стуле"
+              loading="lazy" decoding="async">
+          </picture>
+        </button>
+      </div>
+      <!-- Новый год: три кадра в ряд. Ещё один такой кадр — в portfolio__trio. -->
+      <div class="portfolio__trio">
+        <button class="shot js-photo" type="button"
           data-full="images/look-tree-2000.webp"
           data-fallback="images/look-tree-2000.jpg"
           data-alt-ru="Милена Беляева у новогодней ёлки"
@@ -141,11 +198,11 @@
           <picture>
             <source type="image/webp"
               srcset="images/look-tree-800.webp 800w, images/look-tree-1400.webp 1400w, images/look-tree-2000.webp 2000w"
-              sizes="(min-width: 800px) 50vw, 100vw">
+              sizes="(min-width: 800px) 33vw, 100vw">
             <img
               src="images/look-tree-1400.jpg"
               srcset="images/look-tree-800.jpg 800w, images/look-tree-1400.jpg 1400w, images/look-tree-2000.jpg 2000w"
-              sizes="(min-width: 800px) 50vw, 100vw"
+              sizes="(min-width: 800px) 33vw, 100vw"
               width="4160" height="6240"
               alt="Милена Беляева у новогодней ёлки"
               loading="lazy" decoding="async">
@@ -159,11 +216,11 @@
           <picture>
             <source type="image/webp"
               srcset="images/look-sofa-800.webp 800w, images/look-sofa-1400.webp 1400w, images/look-sofa-2000.webp 2000w"
-              sizes="(min-width: 800px) 50vw, 100vw">
+              sizes="(min-width: 800px) 33vw, 100vw">
             <img
               src="images/look-sofa-1400.jpg"
               srcset="images/look-sofa-800.jpg 800w, images/look-sofa-1400.jpg 1400w, images/look-sofa-2000.jpg 2000w"
-              sizes="(min-width: 800px) 50vw, 100vw"
+              sizes="(min-width: 800px) 33vw, 100vw"
               width="4033" height="6049"
               alt="Милена Беляева с подушкой у ёлки"
               loading="lazy" decoding="async">
@@ -177,11 +234,11 @@
           <picture>
             <source type="image/webp"
               srcset="images/look-gift-800.webp 800w, images/look-gift-1400.webp 1400w, images/look-gift-2000.webp 2000w"
-              sizes="(min-width: 800px) 50vw, 100vw">
+              sizes="(min-width: 800px) 33vw, 100vw">
             <img
               src="images/look-gift-1400.jpg"
               srcset="images/look-gift-800.jpg 800w, images/look-gift-1400.jpg 1400w, images/look-gift-2000.jpg 2000w"
-              sizes="(min-width: 800px) 50vw, 100vw"
+              sizes="(min-width: 800px) 33vw, 100vw"
               width="4160" height="6240"
               alt="Милена Беляева с подарком"
               loading="lazy" decoding="async">

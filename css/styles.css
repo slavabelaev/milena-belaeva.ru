@@ -326,14 +326,19 @@ a { color: inherit; }
 .shot:hover img,
 .shot:focus-visible img { transform: scale(1.02); }
 
-.portfolio__grid {
+.portfolio__grid,
+.portfolio__trio {
   display: grid;
   gap: 4px;
 }
 
-.portfolio__grid .shot { aspect-ratio: 2 / 3; }
+.portfolio__trio { margin-top: 4px; }
 
-.portfolio__grid .shot img {
+.portfolio__grid .shot,
+.portfolio__trio .shot { aspect-ratio: 2 / 3; }
+
+.portfolio__grid .shot img,
+.portfolio__trio .shot img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -342,6 +347,7 @@ a { color: inherit; }
 
 @media (min-width: 800px) {
   .portfolio__grid { grid-template-columns: 1fr 1fr; }
+  .portfolio__trio { grid-template-columns: 1fr 1fr 1fr; }
 }
 
 @media (min-width: 900px) {
